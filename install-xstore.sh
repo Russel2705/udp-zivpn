@@ -37,8 +37,8 @@ while true; do
     echo "$key|$name|$ip|$price" >> $SERVERS_FILE
 done
 
-wget -O $MANAGER https://raw.githubusercontent.com/[USERNAME-KAMU]/udp-zivpn/main/xstore-manager.sh
-wget -O $BOT https://raw.githubusercontent.com/[USERNAME-KAMU]/udp-zivpn/main/xstore-bot.py
+wget -O $MANAGER https://raw.githubusercontent.com/Russel2705/udp-zivpn/main/xstore-manager.sh
+wget -O $BOT https://raw.githubusercontent.com/Russel2705/udp-zivpn/main/xstore-bot.py
 chmod +x $MANAGER
 
 bash $MANAGER
